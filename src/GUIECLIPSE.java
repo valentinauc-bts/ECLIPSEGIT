@@ -53,7 +53,7 @@ public class GUIECLIPSE extends JFrame {
 		JButton btnandy = new JButton("Andrea");
 		btnandy.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(btnandy, "Hola desde la rama Andrea");
+				JOptionPane.showMessageDialog(btnandy, "Hola desde la rama de Andrea");
 			}
 			
 		});
