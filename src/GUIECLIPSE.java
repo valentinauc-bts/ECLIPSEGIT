@@ -50,14 +50,38 @@ public class GUIECLIPSE extends JFrame {
 		btnValentina.setBounds(29, 48, 113, 22);
 		contentPane.add(btnValentina);
 		
+
 		JButton btnEmilio = new JButton("Emilio");
 		btnEmilio.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(btnEmilio, "Hola desde la rama Emilio");
 			}
+			
+			
+			
+			
+			
 		});
 		btnEmilio.setBounds(242, 48, 113, 22);
 		contentPane.add(btnEmilio);
 		
+		
+		
+		
+		
+		
+		
+
+		JButton btnandy = new JButton("Andrea");
+		btnandy.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(btnandy, "Hola desde la rama de Andrea");
+			}
+			
+		});
+		btnandy.setBounds(29, 203, 89, 23);
+		contentPane.add(btnandy);
+
+
 	}
 }
