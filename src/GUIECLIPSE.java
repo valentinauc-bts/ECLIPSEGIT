@@ -34,7 +34,7 @@ public class GUIECLIPSE extends JFrame {
 	 */
 	public GUIECLIPSE() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		setBounds(100, 100, 485, 314);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -47,8 +47,17 @@ public class GUIECLIPSE extends JFrame {
 			}
 			
 		});
-		btnValentina.setBounds(29, 48, 88, 22);
+		btnValentina.setBounds(29, 48, 113, 22);
 		contentPane.add(btnValentina);
-
+		
+		JButton btnEmilio = new JButton("Emilio");
+		btnEmilio.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(btnEmilio, "Hola desde la rama Emilio");
+			}
+		});
+		btnEmilio.setBounds(242, 48, 113, 22);
+		contentPane.add(btnEmilio);
+		
 	}
 }
