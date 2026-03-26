@@ -49,6 +49,16 @@ public class GUIECLIPSE extends JFrame {
 		});
 		btnValentina.setBounds(29, 48, 88, 22);
 		contentPane.add(btnValentina);
+		
+		JButton btnandy = new JButton("Andrea");
+		btnandy.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(btnandy, "Hola desde la rama Andrea");
+			}
+			
+		});
+		btnandy.setBounds(29, 203, 89, 23);
+		contentPane.add(btnandy);
 
 	}
 }
